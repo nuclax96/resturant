@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@400;500&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Sora", sans-serif;
+  --bgBlack: rgba(1, 6, 14, 0.329);
+}
+a {
+  text-decoration: none;
+  /* color: black; */
+}
+body {
+  background-image: url("../assets/img/beansBg.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#nav-tabs a {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+
+#nav-shopName {
+  font-size: 24px;
+  font-weight: 500;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 18px;
+  background-color: var(--bgBlack);
+}
+
+header div {
+  display: flex;
+  gap: 20px;
+}
+
+#content {
+  /* background-color: rgba(0, 0, 0, 0.301); */
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  top: 0;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  color: white;
+  width: 100vw;
+  flex-direction: column;
+  background-color: var(--bgBlack);
+}
+
+#link-imageOwner {
+  color: white;
+}
+
+#main-div-content {
+  background-color: rgba(0, 0, 0, 0.466);
+  width: 30%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100px repeat(auto-fit, minmax(200px, 1fr));
+  justify-content: start;
+  margin-left: 12px;
+  margin-top: 12px;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  letter-spacing: 1px;
+  line-height: 28px;
+}
+
+#heading-main-content {
+  font-size: 24px;
+  letter-spacing: 2px;
+  padding-top: 20px;
+  padding-left: 10px;
+  margin-bottom: 40px;
+}
+
+#tagLine-text {
+  padding-left: 20px;
+}
+
+.img-menu {
+  width: 50%;
+  border-radius: 10px;
+}
+
+.card-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid white;
+}

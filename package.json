@@ -1,0 +1,26 @@
+{
+  "name": "resturant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nuclax96/resturant.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nuclax96/resturant/issues"
+  },
+  "homepage": "https://github.com/nuclax96/resturant#readme",
+  "devDependencies": {
+    "webpack": "^5.84.1",
+    "webpack-cli": "^5.1.1",
+    "css-loader": "^6.8.1",
+    "style-loader": "^3.3.3"
+  }
+}
