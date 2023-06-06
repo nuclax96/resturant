@@ -1,4 +1,4 @@
-import clearContainer from "../clearMainContent";
+import clearContainer from "../helperFunctions/clearMainContent";
 import cappuccino from "../../assets/img/cappuccino.jpg";
 import mocha from "../../assets/img/mocha.jpg";
 import latte from "../../assets/img/latte.jpg";

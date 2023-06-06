@@ -22,10 +22,10 @@ const createImage = (src, imgClass) => {
   createdEl.classList.add(imgClass);
   return createdEl;
 };
-const createParagraph = (txt, imgClass) => {
+const createParagraph = (txt, paraClass) => {
   const createdEl = document.createElement("p");
   createdEl.textContent = txt;
-  imgClass ? createdEl.classList.add(imgClass) : "";
+  paraClass ? createdEl.classList.add(paraClass) : "";
   //   createdEl.classList.add(imgClass);
   return createdEl;
 };
